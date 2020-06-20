@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 工厂模式
+    // function factory(name,age,sex){
+    //     var obj = {};
+    //     obj.name = name;
+    //     obj.age = age;
+    //     obj.sex = sex;
+    //     obj.say = function(){
+    //         return "biubiu";
+    //     }
+    //     return obj;
+    // }
+    // var tuitui = factory("呵tui",18,"男");
+    // var xixi = factory("嘻嘻",19,"女");
+    // console.log(tuitui.say());
+
+    // 构造函数 => 内置的工厂模式
+    // function Cat(name){
+    //     // var this = {};
+    //     this.name = name;
+    //     // return this;
+    // }
+    // var cat = new Cat("小喵");
+    // console.log(cat)
+
+
+    // var animal = (function(){
+    //     var animObj = {
+    //         cat: function(){
+    //             this.name = '花花';
+    //             this.age = 2;
+    //             this.eat = function(){
+    //                 console.log('猫粮')
+    //             }
+    //         },
+    //         dog: function(){
+    //             this.name = '大黄';
+    //             this.age = 3;
+    //             this.eat = function(){
+    //                 console.log('骨头')
+    //             }
+    //         }
+    //     }
+    //     return function factory(anim){
+    //         return new animObj[anim]();
+    //     }
+    // })()
+    // var cat = animal('cat')
+    // console.log(cat);
+
+
+</script>
+</html>
